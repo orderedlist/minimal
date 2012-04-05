@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
   padding:50px;
@@ -68,8 +68,7 @@ pre {
   background: #f8f8f8;  
   border-radius:5px;
   border:1px solid #e5e5e5;
-  overflow: auto;
-  overflow-y: hidden;
+  overflow-x: auto;
 }
 
 table {
@@ -90,6 +89,10 @@ dt {
 
 th {
   color:#444;
+}
+
+img {
+  max-width:100%;
 }
 
 header {
