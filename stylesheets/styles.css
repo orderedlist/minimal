@@ -38,11 +38,19 @@ a {
   text-decoration:none;
 }
 
+a:hover {
+  color:#069;
+}
+
 a small {
   font-size:11px;
   color:#777;
   margin-top:-0.6em;
   display:block;
+}
+
+a:hover small {
+  color:#777;
 }
 
 .wrapper {
@@ -147,6 +155,7 @@ header ul a {
 }
 
 header ul a:hover {
+  color:#999;
   background: -moz-linear-gradient(top, #fff 0%, #ddd 100%);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fff), color-stop(100%,#ddd));
   background: -webkit-linear-gradient(top, #fff 0%,#ddd 100%);
