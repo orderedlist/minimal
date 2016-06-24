@@ -1,9 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700italic,700);
-
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color:#595959;
   font-weight:400;
 }
@@ -23,14 +21,17 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
+  font-weight: 500;
 }
 
 h2 {
   color:#393939;
+  font-weight: 500;
 }
 
 h3, h4, h5, h6 {
   color:#494949;
+  font-weight: 500;
 }
 
 a {
@@ -92,7 +93,7 @@ th, td {
 
 dt {
   color:#444;
-  font-weight:700;
+  font-weight:500;
 }
 
 th {
@@ -155,7 +156,7 @@ header ul a:active {
 
 strong {
   color:#222;
-  font-weight:700;
+  font-weight:500;
 }
 
 header ul li + li + li {
