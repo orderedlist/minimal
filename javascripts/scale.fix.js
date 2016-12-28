@@ -6,7 +6,7 @@ if (navigator.userAgent.match(/iPhone/i)) {
       metas[i].content = "width=device-width, minimum-scale=1.0, maximum-scale=1.0";
     }
   }
-  document.addEventListener("gesturestart", gestureStart, false);
+  document.addEventListener("touchstart", gestureStart, false);
 }
 function gestureStart() {
   for (i=0; i<metas.length; i++) {
