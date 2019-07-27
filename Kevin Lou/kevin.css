@@ -54,6 +54,7 @@ div.grid-item-full {
 	top:10;
   left:10;
   text-decoration: none;
+  max-width: 100%;
 }
 
 #firesteel {    background-image: url('index-firesteel.jpg') }
