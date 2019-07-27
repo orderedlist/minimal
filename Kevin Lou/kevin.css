@@ -49,6 +49,12 @@ div.grid-item-full {
   padding-left: 36px;
 }
 
+#logo{
+	position:fixed;
+	top:5;
+	left:5;
+}
+
 #firesteel {    background-image: url('index-firesteel.jpg') }
 #suspension {   background-image: url('index-suspension.jpg') }
 #suspension a, #firesteel a {
