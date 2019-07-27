@@ -51,8 +51,8 @@ div.grid-item-full {
 
 #logo{
 	position:fixed;
-	top:5;
-	left:5;
+	top:10;
+	left:10;
 }
 
 #firesteel {    background-image: url('index-firesteel.jpg') }
