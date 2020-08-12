@@ -97,6 +97,7 @@ h1 {
 
 h2.nonsticky {
   background-color: white;
+  position: static;
   top: -72px;
   font-size: 40px;
   letter-spacing: -1px;
