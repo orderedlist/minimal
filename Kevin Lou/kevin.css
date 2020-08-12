@@ -82,7 +82,7 @@ div.grid-item img {
   width: 100%;
 }
 
-h1, h2, h3 {
+h1, h2, h2.nonsticky, h3 {
   color: #000;
 }
 
@@ -93,6 +93,16 @@ h1 {
   line-height: 84px;
   padding: 72px 0 24px;
   margin: 0;
+}
+
+h2.nonsticky {
+  background-color: white;
+  top: -72px;
+  font-size: 40px;
+  letter-spacing: -1px;
+  line-height: 60px;
+  padding: 96px 0 24px 30px;
+  margin: 0 0 0 -30px;
 }
 
 h2 {
@@ -235,7 +245,7 @@ div.divider {
     padding: 48px 0 0;
   }
 
-  h2 {
+  h2.nonsticky, h2 {
     font-size: 28px;
     line-height: 40px;
     margin-left: -20px;
