@@ -194,6 +194,139 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+    padding:50px;
+    font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    color:#a6a6a6;
+    font-weight:400;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color:#fdfdfd;
+    margin:0 0 20px;
+  }
+
+  h2 {
+    color:#c6c6c6;
+    font-weight: 500;
+  }
+
+  h3, h4, h5, h6 {
+    color:#b6b6b6;
+    font-weight: 500;
+  }
+
+  a {
+    color:#56a6ff;
+    text-decoration:none;
+  }
+
+  a:hover {
+    color:#488bd8;
+  }
+
+  a small {
+    font-size:11px;
+    color:#f8f8f8;
+    margin-top:-0.3em;
+    display:block;
+  }
+
+  a:hover small {
+    color:#f8f8f8;
+  }
+
+  blockquote {
+    border-left:1px solid #4e4e4e;
+    margin:0;
+    padding:0 0 0 20px;
+    font-style:italic;
+  }
+
+  code, pre {
+    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+    color:#fcfcfc;
+  }
+
+  pre {
+    padding:8px 15px;
+    background: #252525;
+    border-radius:5px;
+    border:1px solid #252525;
+    overflow-x: auto;
+  }
+
+  th, td {
+    text-align:left;
+    padding:5px 10px;
+    border-bottom:1px solid #353535;
+  }
+
+  dt {
+    color:#fbfbfb;
+    font-weight:500;
+  }
+
+  th {
+    color:#fbfbfb;
+  }
+
+  header ul {
+    list-style:none;
+    height:40px;
+    padding:0;
+    background: #353535;
+    border-radius:5px;
+    border:1px solid #252525;
+    width:270px;
+  }
+
+  header li {
+    width:89px;
+    float:left;
+    border-right:1px solid #252525;
+    height:40px;
+  }
+
+  header ul a {
+    line-height:1;
+    font-size:11px;
+    color:#f6f6f6;
+    display:block;
+    text-align:center;
+    padding-top:6px;
+    height:34px;
+  }
+
+  header ul a:hover {
+    color:#f6f6f6;
+  }
+
+  header ul a:active {
+    background-color:#000000;
+  }
+
+  strong {
+    color:#fdfdfd;
+    font-weight:500;
+  }
+
+  header ul a strong {
+    font-size:14px;
+    display:block;
+    color:#fdfdfd;
+  }
+
+  hr {
+    border:0;
+    background:#1a1a1a;
+    height:1px;
+    margin:0 0 20px;
+  }
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
