@@ -287,7 +287,6 @@ footer {
  /* max-width: max-content; */
   width: 100%;
   display: grid;
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   grid-template-columns: auto auto auto;
   object-fit: contain;
 }
@@ -526,7 +525,6 @@ img {
   margin: 0px;
   max-width: 100%;
   background-size: cover;
-  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 
 }
 
