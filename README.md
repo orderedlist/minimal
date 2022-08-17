@@ -1,4 +1,4 @@
-# Minimal Theme
+# About_Latto
 
 [Demo the Theme](http://orderedlist.github.com/minimal/)
 
