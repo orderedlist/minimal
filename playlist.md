@@ -29,3 +29,4 @@
 [Digable Planets - 9th Wonder (Blackitolism)](https://www.youtube.com/watch?v=SyeI43BeR54)
 [Special Ed - I Got It Made (Official Video)](https://www.youtube.com/watch?v=N_9GuiE5Fck)
 [‘FX CREW’ (Graffiti Writers Crew) New York, 1998 [RARE full graff art VHS documentary archive]](https://www.youtube.com/watch?v=Jv7ECeiD1p4)
+[2 Live Crew Banned Banned In The U S A PLAY_COMFORTABLY_LOUD](https://www.youtube.com/watch?v=dFKcJIIR0yM)
