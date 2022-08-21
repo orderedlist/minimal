@@ -113,7 +113,7 @@ th {
 
 img {
   width:100%;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
 
 }
 
@@ -230,7 +230,7 @@ footer {
     border-width:1px 0;
     /* padding:20px 0; */
     margin:0 0 20px;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
   
   
   }
@@ -304,7 +304,7 @@ footer {
   display: grid;
   grid-template-columns: auto auto auto;
   object-fit: contain;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
 
 }
 
@@ -328,7 +328,7 @@ footer {
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;  object-fit: contain;
+  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
 }
 
 .pinupImage {
@@ -347,7 +347,7 @@ footer {
 .twoPanelSpread {
   margin: 0px;
   padding: 0px;
-  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
 
 .row {
   display: flex;
