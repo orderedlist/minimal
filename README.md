@@ -1,4 +1,4 @@
-# Minimal Theme
+# Minimal Theme 
 
 [Demo the Theme](https://orderedlist.com/minimal/)
 
