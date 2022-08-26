@@ -11,8 +11,8 @@ body {
 }
 
 iframe {
-
-  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
+  box-shadow: rgba(77, 57, 255, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  /* box-shadow: rgb(77, 57, 255) 0px 20px 30px -10px; */
   /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
 }
 
@@ -113,8 +113,9 @@ th {
 
 img {
   width:100%;
-  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
-
+  box-shadow: rgba(77, 57, 255, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  /* box-shadow: rgb(77, 57, 255) 0px 20px 30px -10px; */
+ 
 }
 
 header {
@@ -122,6 +123,9 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  box-shadow: rgba(77, 57, 255, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  /* box-shadow: rgb(77, 57, 255) 0px 20px 30px -10px; */
+ 
 }
 
 header ul {
