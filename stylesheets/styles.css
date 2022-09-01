@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300;500&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 body {
   background-color: #fff;
   padding:50px;
-  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* font-size: 1.5em 'Ubuntu Mono', monospace, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
   color:#595959;
-  font-weight:400;
+
+}
+
+iframe {
+  box-shadow: rgba(77, 57, 255, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  /* box-shadow: rgb(77, 57, 255) 0px 20px 30px -10px; */
+  /* box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px; */
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -13,6 +23,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
+  padding: 10px;
 }
 
 h1, h2, h3 {
@@ -21,7 +32,7 @@ h1, h2, h3 {
 
 h1 {
   font-size:28px;
-  font-weight: 500;
+  font-weight: 700;
 }
 
 h2 {
@@ -40,7 +51,8 @@ a {
 }
 
 a:hover {
-  color:#069;
+  /* color:#069; */
+  color:#f633a2
 }
 
 a small {
@@ -67,7 +79,7 @@ blockquote {
 }
 
 code, pre {
-  font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
+  font-family:'Ubuntu Mono', monospace;
   color:#333;
 }
 
@@ -100,7 +112,10 @@ th {
 }
 
 img {
-  max-width:100%;
+  width:100%;
+  box-shadow: rgba(77, 57, 255, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  /* box-shadow: rgb(77, 57, 255) 0px 20px 30px -10px; */
+ 
 }
 
 header {
@@ -108,6 +123,9 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  box-shadow: rgba(77, 57, 255, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  /* box-shadow: rgb(77, 57, 255) 0px 20px 30px -10px; */
+ 
 }
 
 header ul {
@@ -214,8 +232,11 @@ footer {
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
+    /* padding:20px 0; */
     margin:0 0 20px;
+    box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
+  
+  
   }
 
   header a small {
@@ -268,3 +289,336 @@ footer {
     color:#444;
   }
 }
+
+
+/* LAYOUTS */
+/* ##6panel4collages use equallateral images */
+.sixpanel {
+  align-items: stretch;
+  /* flex-flow: row nowrap; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  line-height: 0;
+  justify-content: center;
+  align-content: stretch;
+  height: 100%;
+ /* min-width: fit-content; */
+ /* max-width: max-content; */
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  object-fit: contain;
+  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
+
+}
+
+.sixpanel>div {
+  border: 1px solid #b4e853;
+}
+
+.sixpanel>img {
+  display: block;
+  object-fit: contain;
+  max-width: 100%;
+  border: 0px solid #b4e853;
+}
+
+/* GiTHUB_LOGO##TEAM_SPiRiT!!! */
+/* 4-6images
+	/* IMAN_FRUM_SOMALiA_MY_MOMMA */
+.pinupGallery {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
+}
+
+.pinupImage {
+  width: 100px;
+  flex: 1 0 auto;
+}
+
+.featured-pinupImage {
+  flex: 0 0 100%;
+}
+
+
+/* ##TWO_PANEL_LAYOUT_ADDED_7_28_2022_FOR_SPLiT_SCREEN_POSTS */
+/* ##TWO_PANEL_LAYOUT_ADDED_7_28_2022_FOR_SPLiT_SCREEN_POSTS */
+
+.twoPanelSpread {
+  margin: 0px;
+  padding: 0px;
+  box-shadow: rgb(255, 57, 77) 0px 20px 30px -10px;
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.panelColumn {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+  overflow: hidden;
+}
+
+.leftColumn {
+  background-color: #2470ff;
+  width: 100%;
+}
+
+.leftColumn img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.rightColumn {
+  background-color: #c9ff23;
+}
+
+.rightColumn img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.twoPanelSpread>img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+
+
+/* 3PANEL_SPREAD_WORKS_WELL_WITH_SQUARE_AND_VERTiCAL_iMAGES */
+
+.flex3BorderedPaddedROW {
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  display: flex;
+  align-items: stretch;
+  /* flex-flow: row nowrap; */
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+
+}
+
+.flex3BorderedPaddedROW>div {
+
+  border: 1px solid #c9ff23;
+  border-radius: 1px;
+  padding: 8px;
+}
+
+
+.flex3BorderedPaddedROW>img {
+
+  border: 3px dotted #c9ff23;
+  border-radius: 1px;
+  padding: 8px;
+}
+
+/* FLEX_BOX_FOR_3_IMAGES */
+.flex-container {
+
+  display: flex;
+  align-items: stretch;
+  flex-flow: row nowrap;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+
+}
+
+.flex-container>div {
+
+  border: 1px solid #c9ff23;
+  border-radius: 1px;
+  padding: 8px;
+}
+
+/*  4PANEL_SPREAD_CREATED_FOR_SARTUS_MODELiNG_ENERGY, many uses tho to feature things ##ASK_DiDO */
+.panel4-container {
+
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  height: 100%;
+  padding: 0px;
+  gap: 5px;
+
+}
+
+/* EXPANDiNG_GALLERY_##HTMLPUG_PORT_OF */
+:root {
+  --magnifier: 6;
+  --gap: 1vmin;
+  --transition: 0.5s;
+}
+
+
+
+.expandingGallery {
+  width: 100%;
+  height: 90vmin;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap);
+}
+
+.expandingGallery>img {
+  --brightness: 0.75;
+  --grayscale: 1;
+  transition: flex var(--transition), filter var(--transition);
+  height: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  flex: 1;
+}
+
+.expandingGallery>img:hover {
+
+  flex: var(--magnifier);
+}
+
+
+
+	/* ROUNDED_CORNER_THEE_PANEL */
+
+  .flex-container-rounded {
+
+    display: flex;
+     align-items: stretch; 
+    /* flex-flow: row nowrap; */ 
+    flex-direction: row; 
+    flex-wrap: nowrap; 
+    justify-content: center;
+    align-content: stretch;
+    height: 100%;
+    padding: 15px;
+    gap: 5px;
+    
+                /* ##IMGE_ROLLOVERS  */
+  }
+
+  .flex-container-rounded> div img{
+   
+    border: 1px solid #c9ff23; 
+    padding: 15px;
+     border-radius: 44px;
+  }
+/* TEST FONT_RESET */
+
+img {
+  
+  padding: 0px;
+  margin: 0px;
+  max-width: 100%;
+  background-size: cover;
+
+}
+
+/* AUDiO+PLAYER+CSS */
+.broken-width {
+  width: 100%;
+}
+
+.right-width {
+  min-width: 100%;
+}
+
+audio {
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+  -moz-box-shadow: 2px 2px 4px 0px #006773;
+  -webkit-box-shadow: 2px 2px 4px 0px #006773;
+  box-shadow: 2px 2px 4px 0px #006773;
+  -moz-border-radius: 7px 7px 7px 7px;
+  -webkit-border-radius: 7px 7px 7px 7px;
+  border-radius: 7px 7px 7px 7px;
+}
+
+audio:hover,
+audio:focus,
+audio:active {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+
+/* PORT_FROM_H2AU */
+
+ 
+.some-page-wrapper {
+
+}
+
+.row {
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+ width: 100%;
+}
+
+.column {
+ display: flex;
+ flex-direction: column;
+ flex-basis: 100%;
+ flex: 1;
+ overflow: hidden;
+}
+
+.double-column {
+ display: flex;
+ flex-direction: column;
+ flex-basis: 100%;
+ flex: 2;
+ overflow: hidden;
+}
+
+.blue-column {
+ background-color: #23ff32;
+ 
+}
+
+.green-column {
+ 
+ background-color: #c9ff23;
+} 
+
