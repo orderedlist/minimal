@@ -7,7 +7,20 @@ body {
 }
 
 .round-image {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
+  background-color: blue;
+  object-fit: cover; /* added to preserve aspect ratio */
+  /* commented for demo
+  float: left;
+  margin-left: 125px;
+  margin-top: 20px;
+  */
+
+  /*for demo*/
+  display:inline-block;
+  vertical-align:middle;
 }
 
 h1, h2, h3, h4, h5, h6 {
